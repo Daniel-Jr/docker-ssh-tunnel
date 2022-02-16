@@ -32,3 +32,4 @@ docker run -it --rm \
 -e SSH_HOST=187.57.173.238 \
 -e SSH_USER=ec2-user \
 -v ~/.ssh/id_rsa:/ssh_key/id_rsa:ro \
+voidling/docker-ssh-tunnel

@@ -21,4 +21,5 @@ echo "starting SSH proxy $LOCAL_PORT:$REMOTE_SERVER_IP:$REMOTE_PORT on $SSH_USER
 -o StrictHostKeyChecking=no \
 -L $LOCAL_PORT:$REMOTE_SERVER_IP:$REMOTE_PORT \
 $SSH_USER@$SSH_HOST \
--i /ssh_key/id_rsa
+-i /ssh_key/id_rsa \
+voidling/docker-ssh-tunnel
